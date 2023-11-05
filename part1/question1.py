@@ -32,4 +32,5 @@ def get_city_weather(city):
 
   temperature = get_city_temperature(city)
 
-  return str(temperature) + " degrees and " + sky_condition
+  return str(temperature) + " degrees and " + str(sky_condition)
+
